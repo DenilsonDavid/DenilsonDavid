@@ -1,0 +1,26 @@
+.App {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    background: 57% 73% url('./assets/images/Web-03.png') no-repeat;
+}
+section {
+    /* position: relative;
+    top: 60px;
+    left: 0; */
+    height: auto;
+}
+section.bg-light {
+    /* min-height: 100%;
+    max-height: auto; */
+    background-color: #fff;
+}
+.navigation > a img {
+    width: 52px;
+    height: 52px;
+}

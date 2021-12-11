@@ -1,0 +1,151 @@
+.backdrop-nav {
+    display: none;
+}
+.modal {
+    display: block;
+    /* display: grid !important;
+    grid-template-columns: minmax(150px, 18%) 1fr;
+    height: 80%; */
+}
+.modal .navigation > a {
+    color: #ccc;
+}
+.modal .text .pls-desktop {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.modal .text label {
+    display: flex;
+    flex-direction: column;
+    color: #ccc;
+    font-size: 7em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.modal .text label span {
+    color: #888;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 1em;
+}
+.modal .text > a {
+    display: none;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer img {
+    width: 55px;
+    height: 55px;
+}
+
+
+
+/* Breaking points, media querys */
+@media (max-width: 992.90px) {
+    .backdrop-nav {
+        display: flex;
+    }
+    .modal {
+        /* display: flex !important;
+        align-items: flex-start !important; */
+        display: grid;
+        place-items: center;
+        padding-top: 6em;
+    }
+    .modal .navigation {
+        display: none;
+        /* flex: 0 1 0;
+        margin-right: 3em; */
+    }
+    /* .feedback .text {
+        flex: 1 1 0;
+        align-self: center;
+    } */
+    .modal .text, .modal .text div {
+        display: block !important;
+        color: #ddd;
+        /* display: none !important; */
+        /* align-items: flex-end !important;
+        justify-content: center; */
+    }
+    .modal .text div {
+        margin-bottom: 2em;
+    }
+    .modal .text h4 {
+        max-width: 85%;
+        font-size: 1.7em;
+        font-weight: 500;
+        margin-bottom: 1em !important;
+    }
+    .modal .text b {
+        font-size: 2.5em;
+        margin-bottom: 2em !important;
+    }
+    .modal .text > a {
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-size: 1.1em;
+        font-weight: 700;
+        margin-top: 3em !important;
+        text-decoration: none;
+        text-align: center;
+        padding: 1.3em .5em;
+        border-radius: 50px;
+        background-color: #FFF;
+    }    
+    .modal .text .pls-desktop {
+        display: none !important;
+    }
+    .modal .text label {
+        display: flex;
+        flex-direction: column;
+        color: #ccc;
+        font-size: 4em;
+        font-weight: 600;
+        margin-bottom: 0em;
+    }
+    .modal .text label span {
+        color: #888;
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 1em;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 4em;
+    }
+    .footer img {
+        width: 45px;
+        height: 45px;
+    }
+    .feedback .text .pls-md-ios,
+    .feedback .text ul,
+    .feedback .footer {
+        display: none !important;
+    }
+    .feedback .text .pls-desktop {
+        display: flex !important;
+    }    
+    .feedback .text, .feedback .text div {
+        display: flex;
+        align-items: center;
+    }
+    .feedback .text h2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        font-size: 8em;
+        margin-bottom: 0 !important;
+    }
+    .feedback .text div p {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2em;
+        margin-left: 1em;
+    }
+}

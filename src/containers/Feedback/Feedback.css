@@ -1,0 +1,80 @@
+.feedback {
+    display: grid;
+    place-items: center;
+    /* display: grid !important;
+    grid-template-columns: minmax(150px, 18%) 1fr; */
+}
+.feedback .navigation {
+    display: none;
+}
+.feedback .navigation > a {
+    color: #000;
+}
+.feedback .text, .feedback .text div {
+    display: flex;
+    flex-direction: column;
+}
+.feedback .text h2 {
+    color: #000;
+    font-size: 3.4em;
+    margin-bottom: .5em;
+}
+.feedback .text div h2 span {
+    display: flex;
+    justify-content: flex-end;
+}
+.feedback .text div .pls-desktop {
+    display: none;
+}
+.feedback .text div p {
+    color: #727272;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 2em;
+    /* margin-left: 1em; */
+}
+.feedback .footer {
+    margin-top: 5em;
+}
+
+/* Breaking points, media querys */
+@media (min-width: 992.98px) {
+    .feedback {
+        display: flex !important;
+        align-items: flex-start !important;
+    }
+    .feedback .navigation {
+        display: flex;
+        flex: 0 1 0;
+        margin-right: 3em;
+    }
+    .feedback .text {
+        flex: 1 1 0;
+        align-self: center;
+    }
+    .feedback .text .pls-md-ios,
+    .feedback .text ul,
+    .feedback .footer {
+        display: none !important;
+    }
+    .feedback .text .pls-desktop {
+        display: flex !important;
+    }    
+    .feedback .text, .feedback .text div {
+        align-items: center;
+        flex-direction: row !important;
+    }
+    .feedback .text h2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        font-size: 8em;
+        margin-bottom: 0 !important;
+    }
+    .feedback .text div p {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2em;
+        margin-left: 1em;
+    }
+}

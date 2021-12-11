@@ -1,0 +1,95 @@
+/* li > a {
+    font-size: 3em;
+    font-weight: 600;
+} */
+/* .SideDrawer {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    z-index: 200 !important;
+    padding: 1em 2em;
+    background-color: #000;
+} */
+nav.Nav {
+    position: relative;
+    top: 60px !important;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-flow: column !important;
+    color: #FFF !important;
+    /* justify-content: space-between; */
+    padding: 0 2em;
+}
+/* .SideDrawer .nav > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+/* .SideDrawer .nav div ul {
+    display: none;
+} */
+/*.SideDrawer .nav > div h1 {
+    color: #FFF;
+}
+.SideDrawer .nav div a > img {
+    width: 23px;
+    height: 23px;
+}
+.SideDrawer .nav > div > a {
+    color: #ddd;
+    font-size: 2em;
+    font-weight: 600;
+    margin-right: 2em;
+}
+.SideDrawer .nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.SideDrawer .nav ul li {
+    padding: 0 5px;
+    margin-right: 12px;
+}
+.SideDrawer .nav ul li:last-child {
+    margin-right: 0;
+}
+.SideDrawer .nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 250ms ease-in-out;
+}
+.SideDrawer .nav ul li a:hover {
+    color: #ddd;
+}
+.SideDrawer .nav ul li .active {
+    color:  lightseagreen !important;
+}
+.SideDrawer .nav ul li a, .nav > div > a {
+    text-decoration: none;
+}
+.SideDrawer .nav ul li a img {
+    width: 20px;
+    height: 20px;
+} */
+
+/* 
+@media (min-width: 768.98px) {
+    .SideDrawer {
+        display: none;
+    }
+}
+.Open {
+    transform: translateX(0);
+}
+.Close {
+    transform: translateX(-100%);
+} */

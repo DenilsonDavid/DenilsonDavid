@@ -1,0 +1,48 @@
+.search {
+    display: grid !important;
+    grid-template-columns: minmax(150px, 18%) 1fr;
+    height: 80%;
+    background-color: #fff;
+}
+.search .navigation > a {
+    color: #000;
+}
+.search .navigation > a ion-icon {
+    --ionicon-stroke-width: 30px !important;
+    font-size: 100px !important;
+}
+.search .form {
+    display: flex;
+    align-items: center;
+}
+.search .form .form-group {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 1.8em 2.4em;
+    border-radius: 3.5em;
+    background-color: #000;
+}
+.search .form .form-group input {
+    min-width: 400px;
+    color: #ddd;
+    font-size: 1.5em;
+    padding: auto 1em;
+    margin: 0 20px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+.search .form .form-group img {
+    width: 28px;
+    height: 28px;
+}
+
+.footer {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.footer img {
+    width: 55px;
+    height: 55px;
+}

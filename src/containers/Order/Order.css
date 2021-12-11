@@ -1,0 +1,99 @@
+/* .backdrop-nav {
+    background-color: #FFF !important;
+} */
+.form-section {
+    display: block;
+    padding-top: 6em;
+}
+.form-section .navigation {
+    display: none;
+}
+.form-section .navigation > a {
+    color: #151515;
+}
+.form-section .form h2 {
+    color: #151515;
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+.form-section .form .pls-desktop-title {
+    display: none;
+}
+.form-section .form > p {
+    color: #151515;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+.form-section .form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+.form-section .form .form-group label {
+    color: #2E2E2E;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: .4em;
+}
+.form-section .form .form-group label span {
+    color: #727272;
+}
+.form-section .form .form-group input {
+    color: #333;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+.form-section .form .call-to-action {
+    width: 100%;
+}
+.form-section .form .call-to-action a {
+    display: flex;
+    align-items: center;
+    color: #222;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.form-section .form .call-to-action a img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+
+
+/* Breaking points, media querys */
+@media (min-width: 992.98px) {
+    .form-section {
+        display: flex !important;
+        align-items: flex-start !important;
+        /* grid-template-columns: minmax(150px, 18%) 1fr; */
+        padding-top: 0;
+    }
+    .form-section .navigation {
+        display: flex;
+        flex: 0 1 0;
+        margin-right: 3em;
+    }
+    .form-section .form {
+        flex: 1 1 0;
+    }
+    .form-section .form .pls-md-ios-title,
+    .form-section .form > p {
+        display: none;
+    }
+    .form-section .form .pls-desktop-title {
+        display: flex;
+    }
+    .form-section .form h2 {
+        font-size: 2.9em;
+    }
+    .form-section .form .form-group label {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    text-rendering: optimizeLegibility;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    transition: all 250ms ease-in-out;
+}
+h1, h2,
+h3, h4, h5,
+h6 {
+    font-weight: 800;
+}
+ion-icon {
+    --ionicon-stroke-width: 30px;
+    font-size: 24px;
+}
