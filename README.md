@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Denilson Guedes</h1>
 <h3 align="center">Software Developer @ RuttySMS | SQL, React (Next.js), TDD, Prisma, SEO, Golang Fan</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=denilsondavid&label=Profile%20views&color=0e75b6&style=flat" alt="denilsondavid" /> </p>
+<!--<p align="left"> <img src="https://komarev.com/ghpvc/?username=denilsondavid&label=Profile%20views&color=0e75b6&style=flat" alt="denilsondavid" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=denilsondavid" alt="denilsondavid" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=denilsondavid" alt="denilsondavid" /></a> </p>-->
 
 - 🔭 I’m currently working on [RuttySMS](https://dimesms.netlify.app/)
 
